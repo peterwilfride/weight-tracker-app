@@ -1,7 +1,7 @@
 
 
 serve:
-	@uvicorn main:app --reload
+	@uvicorn src.main:app --reload
 
 dbup:
 	@docker-compose up -d
